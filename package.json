@@ -10,10 +10,11 @@
     "type": "git",
     "url": "/c/xampp/htdocs/Html/.git"
   },
-  "author": "",
+  "author": "Henrique",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
-  }
+  },
+  "dependencies": {}
 }
