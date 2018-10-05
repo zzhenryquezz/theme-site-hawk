@@ -10,22 +10,26 @@
 <body>
   <header>
     <div class="container">
-      <div class="logo">
-        <img src="imagens/logo-menu.png" alt="logo top">
-        <h1 class="titulo"><strong>Hawk</strong></h1>
-        <h2><strong>Animes e Games</strong></h2>
-      </div>
-
-      <div>
-        <ul class="social">
+      <div class="row">
+        <div class="logo col">
+          <img src="imagens/logo-menu.png" alt="logo top">
+        </div>
+        <ul class="social row">
           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
           <li><a href="#"><i class="fab fa-discord"></i></a></li>
         </div>
       </ul>
-      <nav class="menu">
-        <ul>
+        <div class="row h-titulo">
+          <h1 class="titulo"><strong>Hawk</strong></h1>
+        </div>
+          <div class="row h-titulo">
+          <h2 class="subtitulo"><strong>Animes e Games</strong></h2>
+        </div>
+        <div class="row">
+          <nav class="menu ">
+        <ul class="nav">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Sobre</a></li>
           <li><a href="#">Animes</a></li>
@@ -33,7 +37,8 @@
           <li><a href="#">Contato</a></li>
         </ul>
       </nav>
-
+      </div>
+      </div>
     </div>
   </header>
   <main>
@@ -70,31 +75,34 @@
   </main>
   <aside class="sidebar">
     <div class="container">
-    <h2 class="barra-pesquisa">Pesquisar</h2>
-    <img src="imagens/logo-sidebar.jpg" alt="logo sidebar">
-    <input type="search" name="saiba maais" placeholder="Saiba mais">
-    <ul class="social">
-      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="#"><i class="fab fa-discord"></i></a></li>
-    </ul>
-    <div class="post populares">
-      <h1><a href="#">Titulo do artigo</a></h1>
-      <img src="imagens/imagem-popular-post-sidebar.jpg" alt="thumb posts populares">
-    </div>
-  </div>
-  </aside>
-  <footer>
-    <div class="container">
+      <h2 class="barra-pesquisa">Pesquisar</h2>
+      <img src="imagens/logo-sidebar.jpg" alt="logo sidebar">
+      <input type="search" name="saiba maais" placeholder="Saiba mais">
       <ul class="social">
         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
         <li><a href="#"><i class="fab fa-discord"></i></a></li>
       </ul>
-      <p><a href="#">Copywrinting </a><i class="far fa-copyright"></i> 2018- Henrique de Oliveraz</p>
+      <div class="post populares">
+        <h1><a href="#">Titulo do artigo</a></h1>
+        <img src="imagens/imagem-popular-post-sidebar.jpg" alt="thumb posts populares">
+      </div>
     </div>
+  </aside>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+      <ul class="social">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-discord"></i></a></li>
+      </ul>
+      </div>
+      <div class="row">
+      <p><a href="#">Copywrinting </a><i class="far fa-copyright"></i> 2018 - <a href="#">Henrique de Oliveraz</a></p>
+    </div></div>
   </footer>
 </body>
 </html>

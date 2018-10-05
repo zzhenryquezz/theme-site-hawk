@@ -5,12 +5,9 @@ header{
   position: relative;
   margin-bottom: 80px;
   width: 100%
-  //position: ;
-  //attachment: fixed;
-  //size:;
 }
 header .logo{
-    position: relative;
+    position: absolute;
 
 }
 header .logo img{
@@ -22,24 +19,17 @@ header .logo img{
 header h1 {
   color: $branco;
   float: left;
-  position: absolute;
   margin: 24px 0px 0px 150px;
   font-size: 36px;
   text-transform: uppercase;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
   font-weight: $bold;
   font-family: Open sans;
-  }
-
-
-
-  //@include clear: both;
 }
 header h2 {
   color: $branco;
   float: left;
-  position: absolute;
-  margin: 60px 0 0 150px;
+  margin: 0px 0 0 150px;
   text-transform: uppercase;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
   font-weight: $bold;
@@ -70,12 +60,10 @@ header ul{
   display: inline-block;
   margin: 0px 10px 0px 0px;
 }
-
 //     ---     Barra de Menu   ----         //
-
 .menu{
   text-align: left;
-  margin-top: 190px;
+  margin-top: 35px;
   position: absolute;
   background-color: #25a9ec;
   max-width: 1170px;
@@ -84,7 +72,6 @@ header ul{
 .menu ul{
   margin: 0px 0px 0px 15px;
   float: none;
-  padding: 3px;
 }
 .menu ul li{
   display: inline-block;
@@ -94,4 +81,29 @@ header ul{
   color: $branco;
   text-transform: uppercase;
   font-weight: bold;
+  padding: 7px;
+}
+@media (max-width: 992px){
+  // logo
+  header .row{
+    text-align: center;
+  }
+  header .logo{
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+  }
+  // titulo e subtitulo
+
+  header h1, h2{
+    display: contents;
+  }
+
+  // social
+  header ul{
+    display:contents;
+  }
+  .h-titulo {
+    margin: 10px;
+  }
 }
