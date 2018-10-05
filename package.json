@@ -1,7 +1,7 @@
 {
   "name": "site-hawk",
   "version": "1.0.0",
-  "description": "",
+  "description": "My blog",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,7 @@
   "author": "Henrique",
   "license": "ISC",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
   },

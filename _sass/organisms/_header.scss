@@ -1,0 +1,97 @@
+header{
+  @include clearfix();
+  min-height: 150px;
+  background-color: #00a9ec;
+  position: relative;
+  margin-bottom: 80px;
+  width: 100%
+  //position: ;
+  //attachment: fixed;
+  //size:;
+}
+header .logo{
+    position: relative;
+
+}
+header .logo img{
+  float: left;
+  width: 142px;
+  height: 146px;
+
+}
+header h1 {
+  color: $branco;
+  float: left;
+  position: absolute;
+  margin: 24px 0px 0px 150px;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  font-weight: $bold;
+  font-family: Open sans;
+  }
+
+
+
+  //@include clear: both;
+}
+header h2 {
+  color: $branco;
+  float: left;
+  position: absolute;
+  margin: 60px 0 0 150px;
+  text-transform: uppercase;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  font-weight: $bold;
+  font-family: Open sans;
+}
+//     ---     Icones redes sociais   ----         //
+header ul{
+  float: right;
+  margin: 10px 0px 0px 0px;
+}
+.social ul li{
+  display: inline-block;
+}
+
+.social li a{
+  color: $branco;
+  display: block;
+  border: 2px solid $branco;
+  border-radius: 120px;
+  padding: 4px;
+  width: 28px;
+  height: 28px;
+  line-height:12px;
+  text-align: center;
+
+}
+.social li{
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+
+//     ---     Barra de Menu   ----         //
+
+.menu{
+  text-align: left;
+  margin-top: 190px;
+  position: absolute;
+  background-color: #25a9ec;
+  max-width: 1170px;
+  width: 100%
+}
+.menu ul{
+  margin: 0px 0px 0px 15px;
+  float: none;
+  padding: 3px;
+}
+.menu ul li{
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+.menu ul li a{
+  color: $branco;
+  text-transform: uppercase;
+  font-weight: bold;
+}
