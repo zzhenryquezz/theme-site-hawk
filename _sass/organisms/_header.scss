@@ -3,11 +3,13 @@ header{
   min-height: 150px;
   background-color: #00a9ec;
   position: relative;
-  margin-bottom: 80px;
-  width: 100%
+  margin-bottom: 30px;
+}
+header .container{
+  padding: 0px;
 }
 header .logo{
-    position: absolute;
+    //position: absolute;
 
 }
 header .logo img{
@@ -19,7 +21,7 @@ header .logo img{
 header h1 {
   color: $branco;
   float: left;
-  margin: 24px 0px 0px 150px;
+  //margin: 24px 0px 0px 150px;
   font-size: 36px;
   text-transform: uppercase;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
@@ -29,21 +31,17 @@ header h1 {
 header h2 {
   color: $branco;
   float: left;
-  margin: 0px 0 0 150px;
+  //margin: 0px 0 0 150px;
   text-transform: uppercase;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
   font-weight: $bold;
   font-family: Open sans;
 }
 //     ---     Icones redes sociais   ----         //
-header ul{
-  float: right;
-  margin: 10px 0px 0px 0px;
+.social{
+text-align: right;
+margin: 10px 0px 0px 0px;
 }
-.social ul li{
-  display: inline-block;
-}
-
 .social li a{
   color: $branco;
   display: block;
@@ -54,7 +52,6 @@ header ul{
   height: 28px;
   line-height:12px;
   text-align: center;
-
 }
 .social li{
   display: inline-block;
@@ -63,8 +60,7 @@ header ul{
 //     ---     Barra de Menu   ----         //
 .menu{
   text-align: left;
-  margin-top: 35px;
-  position: absolute;
+  margin-bottom: 20px;
   background-color: #25a9ec;
   max-width: 1170px;
   width: 100%
@@ -85,7 +81,7 @@ header ul{
 }
 @media (max-width: 992px){
   // logo
-  header .row{
+  header .container{
     text-align: center;
   }
   header .logo{
@@ -94,16 +90,18 @@ header ul{
     margin: 20px;
   }
   // titulo e subtitulo
+  header .col-lg-4{
+    display: grid;
 
-  header h1, h2{
-    display: contents;
-  }
-
-  // social
-  header ul{
-    display:contents;
   }
   .h-titulo {
-    margin: 10px;
+    margin: auto;
   }
+  // social
+  .social{
+    float: none;
+    text-align: center;
+    margin:20px;
+  }
+
 }

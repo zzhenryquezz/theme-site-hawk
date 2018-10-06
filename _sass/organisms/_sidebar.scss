@@ -1,0 +1,106 @@
+main{
+  //max-width: 700px;
+  float: left;
+}
+.sidebar{
+  float: right;
+  background-color: #25a9ec;
+  width: 100%;
+  max-width:300px;
+  height: auto;
+  padding: 20px;
+}
+aside .row{
+  margin: 0px;
+}
+// barra de pesquisa
+.searchbar{
+  text-align: center;
+}
+.searchbar input{
+  width: 175px;
+  height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px auto 20px;
+  margin-top: 0px;
+  display: inline-block;
+}
+.searchbar button{
+  background: none;
+  border: none;
+  color: $branco;
+  padding-top: 0px;
+}
+
+// logo
+.logo-sidebar{
+  background-image: url("../../imagens/logo-sidebar.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 101px;
+  margin: 0 auto 10px;
+}
+// botao saiba mais
+.botao-s{
+  text-align: center;
+}
+.botao-s input{
+background-color: #25a9ec;
+float: none;
+text-transform: uppercase;
+font-weight: $bold;
+display: inline-block;
+margin: 10px 0 20px 0;;
+border-radius: 120px;
+border: 3px solid $branco;
+}
+// redes sociais
+.social-s{
+  float: none;
+  text-align: center;
+  border-bottom: 1px solid $branco;
+  margin-bottom: 20px;
+}
+.social-s li{
+margin-bottom: 20px;
+}
+// Posts Populares //
+.post-populares{
+
+}
+.post-populares li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid $branco;
+    padding: 15px;
+}
+.post-populares ul li h1 a{
+  color: $branco;
+  font-size: 14pt;
+  font-weight: $bold;
+  font-family: Open Sans;
+  text-transform: uppercase;
+}
+.thum-s{
+  background: url("../../imagens/imagem-popular-post-sidebar.jpg");
+  width: 98px;
+  height: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fim //

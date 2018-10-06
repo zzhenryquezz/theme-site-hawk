@@ -1,0 +1,19 @@
+.thumb-inicial{
+  background: url("../../imagens/imagem-thumb-pagina-inicial.jpg") no-repeat; background-size:contain;
+  width: 100%;
+  height: 250px;
+}
+.mini-artigos h1{
+  font-size: 15pt;
+  font-weight: $bold;
+  text-transform: uppercase;
+}
+.mini-artigos li{
+  padding: 15px;
+}
+.mini-artigos p{
+  width: 355px;
+}
+.corpo.container{
+  padding-left: 0px;
+}
