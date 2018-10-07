@@ -1,7 +1,12 @@
+html{
+  position: relative;
+  min-height:100%;
+}
 footer{
   background-color: #032a3a;
   min-height: 75px;
   margin-top: 50px;
+    width: 100%;
 }
 footer p{
   color: $branco;
@@ -10,11 +15,17 @@ footer p{
   margin-bottom: 13px;
 
 }
-footer ul{
-  width: 100%;
+.social-f{
   text-align: center;
   margin-top: 10px;
 }
 footer p a{
   color: $branco;
+}
+@media(min-width:2500px){
+  footer{
+  position: absolute;
+  bottom: 0;
+
+  }
 }

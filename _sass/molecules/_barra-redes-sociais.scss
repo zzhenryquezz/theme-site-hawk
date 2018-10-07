@@ -1,0 +1,20 @@
+//     ---     Icones redes sociais   ----         //
+.social{
+text-align: right;
+margin: 10px 0px 0px 0px;
+}
+.social li a{
+  color: $branco;
+  display: block;
+  border: 2px solid $branco;
+  border-radius: 120px;
+  padding: 4px;
+  width: 28px;
+  height: 28px;
+  line-height:12px;
+  text-align: center;
+}
+.social li{
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
