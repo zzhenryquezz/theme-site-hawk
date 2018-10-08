@@ -13,7 +13,7 @@ header .social{
   float: right;
 }
 .logo-sobre{
-  background: url("../../imagens/logo-pagina-sobre.png") no-repeat; background-size:contain;
+  background: url("../imagens/logo-pagina-sobre.png") no-repeat; background-size:contain;
   width: 136px;
   height: 136px;
   display: inline-block;
@@ -68,7 +68,7 @@ header h1, h2 {
 }
 // conteudo
 .imagem-sobre{
-  background: url("../../imagens/imagem-thumb-pagina-sobre.jpg") no-repeat; background-size:contain;
+  background: url("../imagens/imagem-thumb-pagina-sobre.jpg") no-repeat; background-size:contain;
   width: 320px;
   height: 203px;
   float: right;
@@ -88,17 +88,16 @@ p{
   text-align: center;
   max-width: 800px;
   width: 100%;
-
 }
 .social-buttons a button{
-    width: 130px;
-    background-color: $branco;
-    border: 1px solid $azul-escuro;
-    text-transform: uppercase;
-    font-size: 11pt;
-    color: $azul-escuro;
-    padding: 5px;
-    margin: 15px;
+  width: 130px;
+  background-color: $branco;
+  border: 1px solid $azul-escuro;
+  text-transform: uppercase;
+  font-size: 11pt;
+  color: $azul-escuro;
+  padding: 5px;
+  margin: 15px;
 }
 .social-buttons a button:hover{
   background-color: $azul-escuro;
@@ -124,9 +123,7 @@ p{
   .h-titulo {
     margin: auto;
   }
-  .menu{
-    display: none;
-  }
+
   // social
   header .social{
     float: none;
@@ -146,8 +143,7 @@ p{
 }
 @media(min-height:1100px){
   footer{
-  position: absolute;
-  bottom: 0;
-
+    position: absolute;
+    bottom: 0;
   }
 }

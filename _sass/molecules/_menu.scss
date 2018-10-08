@@ -28,3 +28,8 @@
   color: $azul-escuro;
   background-color: $azul;
 }
+@media(max-width: 992px){
+  .menu{
+    display: none;
+  }
+}

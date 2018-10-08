@@ -13,7 +13,7 @@ header .social{
   float: right;
 }
 .logo-sobre{
-  background: url("../../imagens/logo-pagina-sobre.png") no-repeat; background-size:contain;
+  background: url("../imagens/logo-pagina-sobre.png") no-repeat; background-size:contain;
   width: 136px;
   height: 136px;
   display: inline-block;
@@ -127,9 +127,7 @@ header h1, h2 {
   .h-titulo {
     margin: auto;
   }
-  .menu{
-    display: none;
-  }
+
   // social
   header .social{
     float: none;

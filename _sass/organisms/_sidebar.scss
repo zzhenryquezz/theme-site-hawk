@@ -1,7 +1,3 @@
-main{
-  //max-width: 700px;
-  float: left;
-}
 .sidebar{
   float: right;
   background-color: #25a9ec;
@@ -18,7 +14,8 @@ aside .row{
   text-align: center;
 }
 .searchbar input{
-  width: 175px;
+  width: 100%;
+  max-width: 200px;
   height: 25px;
   text-align: center;
   text-transform: uppercase;
@@ -31,11 +28,12 @@ aside .row{
   border: none;
   color: $branco;
   padding-top: 0px;
+  height: 25px;
 }
 
 // logo
 .logo-sidebar{
-  background-image: url("../../imagens/logo-sidebar.png");
+  background-image: url("../imagens/logo-sidebar.png");
   background-repeat: no-repeat;
   width: 100px;
   height: 101px;
@@ -93,7 +91,7 @@ margin-bottom: 20px;
   color: $azul-escuro;
 }
 .thum-s{
-  background: url("../../imagens/imagem-popular-post-sidebar.jpg");
+  background: url("../imagens/imagem-popular-post-sidebar.jpg");
   width: 98px;
   height: 72px;
 }
@@ -108,6 +106,9 @@ margin-bottom: 20px;
   }
   .sidebar input{
     width: 100%;
+  }
+  .botao-s{
+    max-width: 300px;
   }
 }
 

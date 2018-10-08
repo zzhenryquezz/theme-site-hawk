@@ -13,15 +13,15 @@
   padding-left: 0px;
 }
 @media(max-width: 440px){
-  .menu{
-    display: none;
-  }
   .carousel{
     display: none;
   }
   .mini-artigos p, h1{
     padding-left: 10px;
     width: auto;
+  }
+  .container{
+    padding: inherit;
   }
   .mini-artigos{
   }
