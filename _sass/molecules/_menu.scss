@@ -1,0 +1,30 @@
+//     ---     Barra de Menu   ----         //
+.menu{
+  text-align: left;
+  margin-bottom: 20px;
+  background-color: $azul;
+  max-width: 1170px;
+  width: 100%
+}
+.menu ul{
+  margin: 0px 0px 0px 15px;
+  float: none;
+}
+.menu ul li{
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+.menu ul li a{
+  color: $branco;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px;
+}
+.menu ul li a:hover{
+  color: $azul-escuro;
+  background-color: $azul;
+}
+.menu ul li a:focus{
+  color: $azul-escuro;
+  background-color: $azul;
+}

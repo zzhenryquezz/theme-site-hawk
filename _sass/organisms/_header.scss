@@ -1,3 +1,4 @@
+@import "../molecules/_menu.scss";
 header{
   min-height: 150px;
   background-color: #00a9ec;
@@ -36,34 +37,12 @@ header h2 {
   font-weight: $bold;
   font-family: Open sans;
 }
-
-//     ---     Barra de Menu   ----         //
-.menu{
-  text-align: left;
-  margin-bottom: 20px;
-  background-color: #25a9ec;
-  max-width: 1170px;
-  width: 100%
-}
-.menu ul{
-  margin: 0px 0px 0px 15px;
-  float: none;
-}
-.menu ul li{
-  display: inline-block;
-  margin: 0px 10px 0px 0px;
-}
-.menu ul li a{
-  color: $branco;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 7px;
-}
 @media (max-width: 992px){
-  // logo
+
   header .container{
     text-align: center;
   }
+// logo
   header .logo{
     display: inline-block;
     position: relative;

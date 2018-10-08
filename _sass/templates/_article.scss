@@ -1,0 +1,27 @@
+// molecules
+@import "../molecules/barra-redes-sociais.scss";
+// Organisms
+@import "../organisms/header.scss";
+@import "../organisms/footer.scss";
+@import "../organisms/sidebar.scss";
+
+// corpo
+.container, .col-lg-8{
+  padding: 0px;
+}
+.imagem-article{
+  background: url("../../imagens/imagem-thumb-post-page.jpg") no-repeat; background-size:contain;
+  width: 100%;
+  height: 390px;
+}
+p{
+  font-family: Open sans;
+  font-size: 12pt;
+  //line-height: 18px;
+  margin: 25px;
+  text-align: left;
+  margin-left: 0px;
+}
+.text-article{
+  padding: 0px;
+}

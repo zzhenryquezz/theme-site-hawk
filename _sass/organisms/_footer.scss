@@ -22,7 +22,11 @@ footer p{
 footer p a{
   color: $branco;
 }
-@media(min-width:2500px){
+footer .row{
+  width: 100%;
+
+}
+@media(min-width:3000px){
   footer{
   position: absolute;
   bottom: 0;

@@ -46,14 +46,22 @@ aside .row{
   text-align: center;
 }
 .botao-s input{
-background-color: #25a9ec;
-float: none;
-text-transform: uppercase;
-font-weight: $bold;
-display: inline-block;
-margin: 10px 0 20px 0;;
-border-radius: 120px;
-border: 3px solid $branco;
+    width: 130px;
+    background-color: $azul;
+    border: 1px solid $branco;
+    text-transform: uppercase;
+    font-size: 11pt;
+    color: $branco;
+    padding: 5px;
+    margin: 15px;
+    font-weight: $bold;
+    border-radius: 120px;
+}
+.botao-s input:hover{
+  background-color: $branco;
+  color: $azul;
+  transition: all 0.3s linear;
+  border-color: $branco;
 }
 // redes sociais
 .social-s{
@@ -81,13 +89,27 @@ margin-bottom: 20px;
   font-family: Open Sans;
   text-transform: uppercase;
 }
+.post-populares ul li h1 a:hover{
+  color: $azul-escuro;
+}
 .thum-s{
   background: url("../../imagens/imagem-popular-post-sidebar.jpg");
   width: 98px;
   height: 72px;
 }
+.thum-s:hover{
+  opacity: 0.8;
+  transition: all 0.35s linear;
+}
 
-
+@media(max-width: 440px){
+  .sidebar{
+  max-width: none;
+  }
+  .sidebar input{
+    width: 100%;
+  }
+}
 
 
 

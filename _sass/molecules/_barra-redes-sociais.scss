@@ -14,6 +14,11 @@ margin: 10px 0px 0px 0px;
   line-height:12px;
   text-align: center;
 }
+.social li a:hover{
+  background: $branco;
+  color: $azul-escuro;
+  border-color: $branco;
+}
 .social li{
   display: inline-block;
   margin: 0px 10px 0px 0px;

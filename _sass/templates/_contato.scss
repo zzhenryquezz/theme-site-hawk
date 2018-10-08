@@ -1,0 +1,151 @@
+// molecules
+@import "../molecules/barra-redes-sociais.scss";
+// organisms
+@import "../organisms/footer";
+// page
+header{
+  min-height: 350px;
+  background-color: #00a9ec;
+  margin-bottom: 30px;
+  width: 100%;
+}
+header .social{
+  float: right;
+}
+.logo-sobre{
+  background: url("../../imagens/logo-pagina-sobre.png") no-repeat; background-size:contain;
+  width: 136px;
+  height: 136px;
+  display: inline-block;
+}
+header .logo{
+  position: relative;
+  text-align:center;
+  margin-top: 120px;
+}
+.h-titulo{
+  text-align: center;
+  width: 100%;
+}
+header h1, h2 {
+  color: $branco;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  font-weight: $bold;
+  font-family: Open sans;
+  margin-top: 0px;
+}
+//     ---     Barra de Menu   ----         //
+.menu{
+  background-color: #25a9ec;
+  width: 100%
+}
+.menu ul{
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+.menu ul li{
+  display: inline-block;
+  margin: 0px 50px 0px 0px;
+}
+.menu ul li a{
+  color: $branco;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px;
+}
+.menu ul li a:hover{
+  color: $azul-escuro;
+  background-color: $azul;
+}
+.menu ul li a:focus{
+  color: $azul-escuro;
+  background-color: $azul;
+}
+// formulario
+.conteudo{
+  min-height: 600px;
+}
+.titulo-page h1{
+  font-size: 20pt;
+  text-transform: uppercase;
+  font-weight: $bold;
+  line-height: 40px;
+  color: $azul-escuro;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.formulario-contato{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.form-group{
+  margin-bottom: 30px;
+}
+.button-enviar{
+  text-align: center;
+}
+.button-enviar{
+    width: 130px;
+    background-color: $branco;
+    border: 1px solid $azul-escuro;
+    text-transform: uppercase;
+    font-size: 11pt;
+    color: $azul-escuro;
+    padding: 5px;
+    margin: 15px;
+    font-weight: $bold;
+}
+.button-enviar:hover{
+  background-color: $azul-escuro;
+  color: $branco;
+  transition: all 0.35s linear;
+}
+
+
+
+// Resposive
+@media (max-width: 992px){
+  // logo
+  header .container{
+    text-align: center;
+  }
+  header .logo{
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+  }
+  // titulo e subtitulo
+  header .col-lg-4{
+    display: grid;
+  }
+  .h-titulo {
+    margin: auto;
+  }
+  .menu{
+    display: none;
+  }
+  // social
+  header .social{
+    float: none;
+    position: unset;
+    text-align: center;
+    margin:20px;
+  }
+  .conteudo{
+    min-height: 600px;
+    padding: 0 15px 0 15px;
+  }
+}
+@media(min-height:1100px){
+  footer{
+  position: absolute;
+  bottom: 0;
+
+  }
+}
