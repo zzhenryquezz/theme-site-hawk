@@ -1,0 +1,25 @@
+.carousel{
+  margin-bottom: 20px;
+}
+.carousel-inner .item{
+  background-color: $preto;
+  max-height: 240px;
+}
+.imagem-carrosel{
+  background: url("../imagens/imagem-slide-pagina-inicial.jpg") no-repeat; background-size:contain;
+  width: 100%;
+  height: 250px;
+
+}
+.carousel-control{
+  width: 100px;
+  opacity: 0;
+}
+.carousel-control span{
+  margin-top: 110px;
+  font-size: 20pt;
+
+}
+.carousel-control:hover{
+  opacity: 1;
+}

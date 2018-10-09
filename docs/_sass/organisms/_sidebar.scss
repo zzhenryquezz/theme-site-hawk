@@ -1,0 +1,129 @@
+.sidebar{
+  float: right;
+  background-color: #25a9ec;
+  width: 100%;
+  max-width:300px;
+  height: auto;
+  padding: 20px;
+}
+aside .row{
+  margin: 0px;
+}
+// barra de pesquisa
+.searchbar{
+  text-align: center;
+}
+.searchbar input{
+  width: 100%;
+  max-width: 200px;
+  height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px auto 20px;
+  margin-top: 0px;
+  display: inline-block;
+}
+.searchbar button{
+  background: none;
+  border: none;
+  color: $branco;
+  padding-top: 0px;
+  height: 25px;
+}
+
+// logo
+.logo-sidebar{
+  background-image: url("../imagens/logo-sidebar.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 101px;
+  margin: 0 auto 10px;
+}
+// botao saiba mais
+.botao-s{
+  text-align: center;
+}
+.botao-s input{
+    width: 130px;
+    background-color: $azul;
+    border: 1px solid $branco;
+    text-transform: uppercase;
+    font-size: 11pt;
+    color: $branco;
+    padding: 5px;
+    margin: 15px;
+    font-weight: $bold;
+    border-radius: 120px;
+}
+.botao-s input:hover{
+  background-color: $branco;
+  color: $azul;
+  transition: all 0.3s linear;
+  border-color: $branco;
+}
+// redes sociais
+.social-s{
+  float: none;
+  text-align: center;
+  border-bottom: 1px solid $branco;
+  margin-bottom: 20px;
+}
+.social-s li{
+margin-bottom: 20px;
+}
+// Posts Populares //
+.post-populares{
+
+}
+.post-populares li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid $branco;
+    padding: 15px;
+}
+.post-populares ul li h1 a{
+  color: $branco;
+  font-size: 14pt;
+  font-weight: $bold;
+  font-family: Open Sans;
+  text-transform: uppercase;
+}
+.post-populares ul li h1 a:hover{
+  color: $azul-escuro;
+}
+.thum-s{
+  background: url("../imagens/imagem-popular-post-sidebar.jpg");
+  width: 98px;
+  height: 72px;
+}
+.thum-s:hover{
+  opacity: 0.8;
+  transition: all 0.35s linear;
+}
+
+@media(max-width: 440px){
+  .sidebar{
+  max-width: none;
+  }
+  .sidebar input{
+    width: 100%;
+  }
+  .botao-s{
+    max-width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fim //

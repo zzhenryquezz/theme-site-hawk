@@ -1,0 +1,40 @@
+html{
+  position: relative;
+  min-height:100%;
+}
+footer{
+  background-color: #032a3a;
+  min-height: 75px;
+  margin-top: 50px;
+    width: 100%;
+}
+footer p{
+  color: $branco;
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 13px;
+
+}
+.social-f{
+  text-align: center;
+  margin-top: 10px;
+}
+footer p a{
+  color: $branco;
+}
+footer .row{
+  width: 100%;
+
+}
+@media(min-width:3000px){
+  footer{
+  position: absolute;
+  bottom: 0;
+
+  }
+}
+@media(max-width: 992px){
+  .menu{
+    display: none;
+  }
+}
