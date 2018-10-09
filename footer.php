@@ -9,10 +9,10 @@
     </ul>
   </div>
   <div class="row">
-    <p><a href="#">Copywrinting </a><i class="far fa-copyright"></i> 2018 - <a href="#">Henrique de Oliveraz</a></p>
+    <p><a href="#">Copywrinting </a><i class="far fa-copyright"></i> <?php echo date("Y")  ?> - <a href="#">Henrique de Olivera</a></p>
   </div>
-  <script src="bower_components/jquery/dist/jquery.js"></script>
-  <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+  <script src="<?php bloginfo("template_url"); ?>/bower_components/jquery/dist/jquery.js"></script>
+  <script src="<?php bloginfo("template_url"); ?>/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
 </footer>
 </body>
 </html>

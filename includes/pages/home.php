@@ -1,4 +1,6 @@
-<?php include("includes/organisms/carousel.php");?>
+<?php
+include get_template_directory()."/includes/organisms/carousel.php";
+?>
 
 <div class="conteudo col-lg-8">
   <ul class="row mini-artigos">
@@ -33,4 +35,4 @@
     </li>
   </ul>
 </div>
-<?php include("includes/organisms/sidebar.php"); ?>
+<?php include get_template_directory()."/includes/organisms/sidebar.php"?>

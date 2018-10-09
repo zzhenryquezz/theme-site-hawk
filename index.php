@@ -1,7 +1,6 @@
 <?php
 $style="home";
-$menu = "menu-1.php";
-include('header.php');
-include('includes/pages/home.php');
-include('footer.php');
+include get_template_directory()."/header.php";
+include get_template_directory()."/includes/pages/home.php";
+include get_template_directory()."/footer.php";
 ?>

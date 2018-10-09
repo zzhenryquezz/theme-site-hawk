@@ -4,7 +4,8 @@
   margin-bottom: 20px;
   background-color: $azul;
   max-width: 1170px;
-  width: 100%
+  width: 100%;
+  padding: 7px;
 }
 .menu ul{
   margin: 0px 0px 0px 15px;
@@ -18,7 +19,7 @@
   color: $branco;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 7px;
+
 }
 .menu ul li a:hover{
   color: $azul-escuro;

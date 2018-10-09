@@ -1,10 +1,7 @@
-  <!-- menu home -->
+<!-- menu home -->
 <nav class="menu container">
-  <ul class="nav">
-    <li><a href="index.php">Inicio</a></li>
-    <li><a href="sobre.php">Sobre</a></li>
-    <li><a href="article.php">Animes</a></li>
-    <li><a href="#">Games</a></li>
-    <li><a href="contato.php">Contato</a></li>
-  </ul>
+  <?php wp_nav_menu(
+    array('theme_location' => 'header-menu' )
+  );
+  ?>
 </nav>

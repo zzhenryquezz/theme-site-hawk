@@ -3,24 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>Site-Hawk</title>
-  <link rel="stylesheet" href="css/geral.css">
-  <link rel="stylesheet" href="css/plugins.css">
-  <link rel="stylesheet" href="css/<?php echo $style;?>.css">
-</script>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</script>
+  <link rel="stylesheet" href="<?php bloginfo("template_url");?>/css/geral.css">
+  <link rel="stylesheet" href="<?php bloginfo("template_url");?>/css/plugins.css">
+  <link rel="stylesheet" href="<?php bloginfo("template_url");?>/css/<?php echo $style; ?>.css">
+<style media="screen">
+  .menu{
+    background: none;
+  }
+</style>
 </head>
 <body>
   <!-- Cabesalho -->
-  <header class="container-fluid">
+  <header class="header container-fluid">
     <div class="container">
-      <?php include("includes/molecules/icones-redes-sociais.php") ?>
-      <a href="index.php">
+      <?php include get_template_directory()."/includes/molecules/icones-redes-sociais.php"?>
+      <a href="<?php bloginfo("url") ?>">
         <div class="logo col-lg-12">
           <div class="logo-sobre">
           </div>
         </div>
-
         <div class="h-titulo col-lg-4">
           <h1 class="titulo"><strong>Hawk</strong></h1>
           <h2 class="subtitulo"><strong>Animes e Games</strong></h2>
@@ -29,5 +30,5 @@
     </div>
   </header>
   <!-- menu -->
-  <?php include("includes/molecules/$menu"); ?>
+  <?php include get_template_directory()."/includes/molecules/menu-2.php" ?>
   <main class="container">

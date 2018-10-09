@@ -5,8 +5,8 @@
     </div>
   </div>
   <div class="row">
-    <div class="logo-sidebar"></div>
-  </div>
+    <a href="<?php bloginfo("url") ?>"><div class="logo-sidebar"></div>
+  </div></a>
   <div class="botao-s row">
     <input class="btn btn-primary" type="button" value="Saiba Mais">
   </div>
