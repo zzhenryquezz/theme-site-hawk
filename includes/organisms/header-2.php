@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <title>Site-Hawk</title>
+  <title><?php wp_title('',true,'righ'); ?></title>
   <link rel="stylesheet" href="<?php bloginfo("template_url");?>/css/geral.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url");?>/css/plugins.css">
   <link rel="stylesheet" href="<?php bloginfo("template_url");?>/css/<?php echo $style; ?>.css">
@@ -23,8 +23,8 @@
           </div>
         </div>
         <div class="h-titulo col-lg-4">
-          <h1 class="titulo"><strong>Hawk</strong></h1>
-          <h2 class="subtitulo"><strong>Animes e Games</strong></h2>
+          <h1 class="titulo"><strong><?php bloginfo('name'); ?></strong></h1>
+          <h2 class="subtitulo"><strong><?php bloginfo('description'); ?></strong></h2>
         </div>
       </a>
     </div>

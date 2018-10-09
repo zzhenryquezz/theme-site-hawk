@@ -17,8 +17,8 @@
       </div>
       <a href="<?php bloginfo("url") ?>">
         <div class="col-lg-4">
-          <h1 class="titulo h-titulo"><strong>Hawk</strong></h1>
-          <h2 class="subtitulo h-titulo"><strong>Animes e Games</strong></h2>
+          <h1 class="titulo h-titulo"><strong><?php bloginfo('name') ?></strong></h1>
+          <h2 class="subtitulo h-titulo"><strong><?php bloginfo('description') ?></strong></h2>
         </div>
       </a>
       <?php include get_template_directory()."/includes/molecules/icones-redes-sociais.php"?>

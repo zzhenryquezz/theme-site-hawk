@@ -30,4 +30,6 @@ function resumo_post_type() {
 );
 }
 add_action( 'init', 'resumo_post_type');
+// theme supports
+
 ?>
