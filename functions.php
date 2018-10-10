@@ -1,6 +1,10 @@
 <?php
-// ativando suporte a imagem destacada
+// ativando suporte a imagem destacada e custum-sizes
 add_theme_support("post-thumbnails");
+add_image_size('thumb-home', 350, 250, false);
+add_image_size('thumb-slide', 900, 186, true);
+// ativando excerpt
+add_post_type_support('page', 'excerpt');
 
 //ativando menus dinamicos
 function register_my_menus(){
@@ -13,13 +17,13 @@ function register_my_menus(){
 }
 add_action( 'init', 'register_my_menus');
 
-// mini artigos
+// post type
 function resumo_post_type() {
-  register_post_type( 'acme_products',
+  register_post_type( 'carousel',
   array(
     'labels' => array(
-      'name' => __( 'Resumos' ),
-      'singular_name' => __( 'Resumo' )
+      'name' => __( 'Carousel' ),
+      'singular_name' => __( 'Carousel' )
     ),
     'public' => true,
     'has_archive' => true,

@@ -13,6 +13,8 @@
   </div>
   <script src="<?php bloginfo("template_url"); ?>/bower_components/jquery/dist/jquery.js"></script>
   <script src="<?php bloginfo("template_url"); ?>/bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+  <script src="<?php bloginfo("template_url"); ?>/js/jquery.bxslider.min.js"></script>
 </footer>
+<?php wp_footer(); ?>
 </body>
 </html>

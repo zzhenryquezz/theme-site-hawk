@@ -1,38 +1,28 @@
+<!-- carrosel -->
 <?php
 include get_template_directory()."/includes/organisms/carousel.php";
 ?>
 
+<!-- Resumo de posts - miniartigos -->
 <div class="conteudo col-lg-8">
-  <ul class="row mini-artigos">
-    <li class="col-lg-6">
-      <article>
-        <div class="thumb-inicial"></div>
-        <h1><a href="#">Tilulo de artigos exemplificando</a></h1>
-        <p> Fusce dapibus orci eget lectus efficitur facilisis. Proin mattis est ipsum, quis ultricies justo venenatis eget. Quisque massa mi, gravida in tempor a, consequat ac magna. Phasellus luctus odio ante, quis egestas dolor luctus eu.</p>
-      </article>
-    </li>
-    <li class="col-lg-6">
-      <article>
-        <div class="thumb-inicial"></div>
-        <h1><a href="#">Tilulo de artigos exemplificando</a></h1>
-        <p> Fusce dapibus orci eget lectus efficitur facilisis. Proin mattis est ipsum, quis ultricies justo venenatis eget. Quisque massa mi, gravida in tempor a, consequat ac magna. Phasellus luctus odio ante, quis egestas dolor luctus eu.</p>
-      </article>
-    </li>
-    <div class="w-100"></div>
-    <li class="col-lg-6">
-      <article>
-        <div class="thumb-inicial"></div>
-        <h1><a href="#">Tilulo de artigos exemplificando</a></h1>
-        <p> Fusce dapibus orci eget lectus efficitur facilisis. Proin mattis est ipsum, quis ultricies justo venenatis eget. Quisque massa mi, gravida in tempor a, consequat ac magna. Phasellus luctus odio ante, quis egestas dolor luctus eu.</p>
-      </article>
-    </li>
-    <li class="col-lg-6">
-      <article>
-        <div class="thumb-inicial img-fluid"></div>
-        <h1><a href="#">Tilulo de artigos exemplificando</a></h1>
-        <p> Fusce dapibus orci eget lectus efficitur facilisis. Proin mattis est ipsum, quis ultricies justo venenatis eget. Quisque massa mi, gravida in tempor a, consequat ac magna. Phasellus luctus odio ante, quis egestas dolor luctus eu.</p>
-      </article>
-    </li>
-  </ul>
+  <?php
+   if(have_posts()) :
+    while (have_posts()) : the_post();?>
+
+      <div class="mini-artigos col-lg-6">
+
+        <a href="<?php the_permalink(); ?>"><img class="thumb-inicial"src="<?php the_post_thumbnail_url('thumb-home');?>"<a>
+
+          <h1><a href="<?php the_permalink();?> "><?php the_title() ?> </h1></a>
+
+          <?php the_excerpt(); ?>
+
+          <a href="<?php the_permalink(); ?>">Leia Mais</a>
+      </div>
+  <?php endwhile;?>
+  <?php else : ?>
+    <p>Sem Posts</p>
+  <?php endif; ?>
 </div>
-<?php include get_template_directory()."/includes/organisms/sidebar.php"?>
+
+<?php get_sidebar();?>
